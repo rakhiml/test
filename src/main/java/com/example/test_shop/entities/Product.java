@@ -21,9 +21,9 @@ public class Product {
     private Long id;
     private String sn;
     private String manufacture;
-    private String quantity;
+    private Integer quantity;
 
-    public Product(String sn, String manufacture, String quantity) {
+    public Product(String sn, String manufacture, Integer quantity) {
         this.sn = sn;
         this.manufacture = manufacture;
         this.quantity = quantity;

@@ -8,6 +8,6 @@ import lombok.Setter;
 public class ProductDto {
     private String sn;
     private String manufacture;
-    private String quantity;
+    private Integer quantity;
 
 }
